@@ -19,6 +19,7 @@ const nodemailer = require('nodemailer');
 app.use("/api/admin", adminRoute);
 
 app.use(cors())
+console.log("ddf")
 
 app.use(express.json())
 
